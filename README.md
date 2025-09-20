@@ -1,5 +1,7 @@
 📰 Fake News Detection using LSTM
 
+Fake News Detection Analysis - LSTM Classification Complete Video Tutorial: 
+https://youtu.be/DdgymahD7Zg
 
 📌 About the Project
 
@@ -18,10 +20,6 @@ author → Author of the news article
 text → Main content of the article (may be incomplete)
 
 label → Target variable
-
-1 → Unreliable (fake news)
-
-0 → Reliable (real news)
 
 🔑 Features
 
