@@ -1,31 +1,75 @@
-# Fake News Detection Analysis - LSTM Classification
+📰 Fake News Detection using LSTM
 
-**Complete Video Tutorial:** https://youtu.be/DdgymahD7Zg
 
-# Dataset Information
+📌 About the Project
 
-Develop a Deep learning program to identify when an article might be fake news.
+The spread of fake news has become a major concern in today’s digital world. This project leverages Natural Language Processing (NLP) and Deep Learning (LSTM) to automatically identify whether a news article is reliable or unreliable.
 
-### Attributes
-- id: unique id for a news article
-- title: the title of a news article
-- author: author of the news article
-- text: the text of the article; could be incomplete
-- label: a label that marks the article as potentially unreliable
-    - 1: unreliable
-    - 0: reliable
+📂 Dataset Information
 
-# Libraries
+Each news article contains the following attributes:
 
-- pandas
-- matplotlib
-- keras
-- tensorflow
-- scikit-learn
-- nltk
+id → Unique identifier for the article
 
-# Neural Network
+title → Title of the news article
 
-<li>LSTM Network
-  
-**Accuracy:** 95.00 (Train more than 50 epochs)
+author → Author of the news article
+
+text → Main content of the article (may be incomplete)
+
+label → Target variable
+
+1 → Unreliable (fake news)
+
+0 → Reliable (real news)
+
+🔑 Features
+
+Text preprocessing with NLTK
+
+Word embeddings for semantic understanding
+
+LSTM network for sequential text classification
+
+High accuracy with sufficient training epochs (>50)
+
+📚 Libraries Used
+
+pandas
+
+matplotlib
+
+keras
+
+tensorflow
+
+scikit-learn
+
+🧠 Model Architecture
+
+Embedding Layer for text vectorization
+
+LSTM Layers for sequence learning
+
+Dense Output Layer with binary classification (real/fake)
+
+📊 Results
+
+Achieved 95% accuracy after training for more than 50 epochs.
+
+Model effectively distinguishes between fake and real news articles.
+
+🔮 Future Improvements
+
+Use pre-trained embeddings (GloVe, Word2Vec, BERT)
+
+Explore advanced architectures (Bi-LSTM, GRU, Transformers)
+
+Extend dataset for broader coverage across sources and domains
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo, open issues, or submit pull requests for improvements.
+
+
+✨ “Fighting misinformation with the power of AI and Deep Learning.”
